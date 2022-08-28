@@ -16,8 +16,8 @@ def insert_data(collection, data_list)->bool:
     return True
 
 
-product = [{ "product_id": "3", "type": "camera" , "product_name": "SONY", "price": "1000"},
-{ "product_id": "4", "type": "camera" , "product_name": "SONY", "price": "1000"}]
+product = [{ "product_id": "3", "type": "camera" , "product_name": "SONY", "price": "1000", "s3_path": "dummy"},
+{ "product_id": "4", "type": "camera" , "product_name": "SONY", "price": "1000", "s3_path": "dummy"}]
 insert_data("products", product)
 
 order = [{ "order_id": "001",  "product_id": "1", "emailid": "test@gmail.com", "datetime": "2022-09-08 00:00:00", 
